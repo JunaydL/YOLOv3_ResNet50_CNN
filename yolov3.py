@@ -124,7 +124,6 @@ def create_yolov3_modules(config_model, ignore_thre):
     #Resnet50 Backbone from torchvision.models library
     #Error: RuntimeError: Expected 3D (unbatched) or 4D (batched) 
     #input to conv2d, but got input of size: [1, 1000]
-    #import torchvision.models
     #backbone = torchvision.models.resnet50(pretrained = True)
     #backbone.out_channels = 1024
     #mlist.append(backbone)
