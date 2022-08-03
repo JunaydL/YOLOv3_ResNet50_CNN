@@ -1,6 +1,11 @@
 # YOLOv3_ResNet50_CNN
 These are some of my practice codes to see how to combine Yolov3 and ResNet50 backbone
 
+For the checkpoints, COCO, and weights folders look at the following link on how to download them to
+your computer.
+
+https://github.com/motokimura/PyTorch_Gaussian_YOLOv3 
+
 These files contain my work on the YOLOv3-Gassian prediction AI. 
 I've attempted to change the Darknet53 backbone to a Resnet 50 backbone. 
 There are two demo files. The demo1 jupyter file is used to run the model wthout any weights. 
